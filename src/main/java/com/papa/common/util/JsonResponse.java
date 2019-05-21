@@ -1,4 +1,4 @@
-package com.papa.papa.common.util;
+package com.papa.common.util;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

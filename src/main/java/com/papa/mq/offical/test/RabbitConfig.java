@@ -1,4 +1,4 @@
-package com.papa.papa.mq.offical.test;
+package com.papa.mq.offical.test;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;

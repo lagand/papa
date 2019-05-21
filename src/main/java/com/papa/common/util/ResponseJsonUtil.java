@@ -1,4 +1,6 @@
-package com.papa.papa.common.util;
+package com.papa.common.util;
+
+import com.papa.common.util.JsonResponse;
 
 /**
  * @Author luyi

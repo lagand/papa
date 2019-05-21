@@ -1,7 +1,8 @@
-package com.papa.papa.client;
+package com.papa.client;
 
-import com.papa.papa.common.util.JsonResponse;
-import com.papa.papa.common.util.ResponseJsonUtil;
+import com.papa.common.util.JsonResponse;
+import com.papa.common.util.ResponseJsonUtil;
+import com.papa.papa.client.ClientService;
 import org.apache.http.Header;
 import org.apache.http.HttpRequest;
 import org.apache.http.client.HttpClient;

@@ -1,4 +1,4 @@
-package com.papa.papa.mq.offical.test;
+package com.papa.mq.offical.test;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;

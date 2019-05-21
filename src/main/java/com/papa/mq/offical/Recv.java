@@ -1,4 +1,4 @@
-package com.papa.papa.mq.offical;
+package com.papa.mq.offical;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;

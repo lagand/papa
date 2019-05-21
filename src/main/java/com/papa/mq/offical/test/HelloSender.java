@@ -1,4 +1,4 @@
-package com.papa.papa.mq.offical.test;
+package com.papa.mq.offical.test;
 
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

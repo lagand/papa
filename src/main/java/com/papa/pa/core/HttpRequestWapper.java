@@ -1,4 +1,4 @@
-package com.papa.papa.pa.core;
+package com.papa.pa.core;
 
 import com.papa.papa.client.ClientService;
 import org.apache.http.Header;
