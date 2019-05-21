@@ -7,10 +7,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class PapaApplicationTests {
-
-    @Test
-    public void contextLoads() {
-    }
+public class BaseJunitConfig{
 
 }

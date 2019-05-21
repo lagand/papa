@@ -16,7 +16,7 @@ public class Recv {
     public static void main(String[] args){
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost("119.23.57.42");
-        factory.setPort(15672);
+        factory.setPort(5672);
         factory.setUsername("luyi");
         factory.setPassword("luyi963852");
         factory.setAutomaticRecoveryEnabled(true);
