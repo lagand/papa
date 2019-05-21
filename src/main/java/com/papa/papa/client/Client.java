@@ -20,13 +20,12 @@ import java.net.URISyntaxException;
  * @Author luyi
  * @create 2019/4/23 0023 下午 2:59
  */
-@Component
 public class Client {
 
     @Autowired
     private ClientService clientService;
 
-    public JsonResponse visit(String url){
+    public JsonResponse execute(String url){
         CloseableHttpClient client = HttpClients.createDefault();
         CloseableHttpResponse response = null;
         HttpGet get = new HttpGet("http://zjj.sz.gov.cn/bzflh/rentAction.do");

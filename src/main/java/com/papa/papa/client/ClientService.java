@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
  * @Author luyi
  * @create 2019/4/23 0023 下午 2:26
  */
-@Service
+@Service("clientService")
 public interface ClientService {
 
         default public CloseableHttpClient getClient(){
