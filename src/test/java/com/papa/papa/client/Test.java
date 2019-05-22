@@ -1,6 +1,5 @@
 package com.papa.papa.client;
 
-import com.papa.papa.common.util.JsonResponse;
 import org.apache.http.client.methods.CloseableHttpResponse;
 
 import java.util.concurrent.locks.Lock;
@@ -18,10 +17,4 @@ public class Test {
 
 
 
-    private void httpTest(){
-        Client client = new Client();
-        JsonResponse visit = client.execute("");
-        CloseableHttpResponse response = (CloseableHttpResponse) visit.getObject();
-        System.out.println(response.getEntity());
-    }
 }
